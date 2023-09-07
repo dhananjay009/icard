@@ -69,28 +69,33 @@ body {
 }
 
 .text-data .name {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 500;
     
 
 }
+.text-data .name1 {
+    font-size: 14px;
+    font-weight: 400;
+
+}
 
 .text-data .job {
-    font-size: 16px;
-    font-weight:400;
+    font-size: 13px;
+    font-weight:350;
     font-style: italic;
 
 }
 
 .text-data .address {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 12px;
+    font-weight: 350;
     font-style: italic;
 }
 
 .text-data .address1 {
-    font-size: 12px;
-    font-weight: 300;
+    font-size: 11px;
+    font-weight: 350;
     font-style: italic;
 }
 
