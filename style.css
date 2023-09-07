@@ -1,140 +1,166 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: 'Poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-body{
-    height:100vh;
+
+body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f4f4f4;
 }
 
-.id-card{
+.id-card {
     display: flex;
-flex-direction: column;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
     max-width: 370px;
     width: 100%;
     background: #fff;
-    border-radius: 24px;
-    padding: 25px;
+    border-radius: 450px;
+    padding: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
 }
 
-.id-card::before{
-content: "";
-position: absolute;
-top: 0;
-left: 0;
-height: 36%;
-width: 100%;
-border-radius: 24px 24px 0 0;
-background-color: #F08;
+.id-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 36%;
+    width: 100%;
+    border-radius: 24px 24px 0 0;
+    background-color: #F08;
 
 }
-.image{
-position: relative;
-height: 130px;
-width: 120px;
-border-radius: 50%;
-/*background-color: #4070f4;*/
-background-color:#F08;
-padding: 3px;
-margin-bottom: 10px;
+
+.image {
+    position: relative;
+    height: 130px;
+    width: 120px;
+    border-radius: 50%;
+    /*background-color: #4070f4;*/
+    background-color: #F08;
+    padding: 3px;
+    margin-bottom: 10px;
 
 }
-.image .id-img{
+
+.image .id-img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border : 3px solid #fff;
-
+    border: 3px solid #fff;
 }
+
 .id-card .text-data {
-display: flex;
-flex-direction: column;
-align-items: center;
-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333;
 
 }
-.text-data .name{
-    font-size: 22px;
-    font-weight: 500;
-}
 
-.text-data .job{
+.text-data .name {
     font-size: 18px;
+    font-weight: 500;
+    
+
+}
+
+.text-data .job {
+    font-size: 16px;
+    font-weight:400;
+    font-style: italic;
+
+}
+
+.text-data .address {
+    font-size: 14px;
     font-weight: 400;
+    font-style: italic;
 }
 
-.id-card .media-buttons{
-   display: flex; 
-   align-items: center;
-   margin-top: 15px;
+.text-data .address1 {
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
 }
 
-.media-buttons .link{
-    display: flex; 
+.id-card .media-buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media-buttons .link {
+    display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
-    height: 34px;
-    width: 34px;
-    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    font-size: 27px;
     border-radius: 50%;
     margin: 0 8px;
     background-color: #F08;
     text-decoration: none;
 
- }
+}
 
- .id-card .buttons{
-    display: flex; 
+.id-card .buttons {
+    display: flex;
     align-items: center;
     margin-top: 25px;
 
- }
-.buttons .button {
-color: #fff;
-font-size: 14px;
-font-weight: 400;
-border: none;
-border-radius: 24px;
-margin: 0 10px;
-padding: 8px 24px;
-background-color: #F08;
-cursor: pointer;
-transition: all 0.3s ease;
 }
+
+.buttons .button {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    border-radius: 24px;
+    margin: 0 10px;
+    padding: 8px 24px;
+    background-color: #F08;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .buttons .button:hover {
     background-color: #F08;
 }
 
-.id-card .analytics{
-    display: flex; 
+.id-card .analytics {
+    display: flex;
     align-items: center;
     margin-top: 25px;
 
- }
- .analytics .data{
+}
 
-    display: flex; 
+.analytics .data {
+
+    display: flex;
     align-items: center;
     color: #333;
     padding: 0 20px;
     border-right: 2px solid #e7e7e7;
- }
- .data .i {
-    font-size :22px;
+}
+
+.data .i {
+    font-size: 22px;
     margin-right: 6px;
- }
- .data:last-child{
+}
+
+.data:last-child {
 
     border-right: none;
- }
+}
