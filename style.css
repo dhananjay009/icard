@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 body {
@@ -69,33 +72,33 @@ body {
 }
 
 .text-data .name {
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 18px;
+    font-weight:700;
     
 
 }
 .text-data .name1 {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
 
 }
 
 .text-data .job {
-    font-size: 13px;
-    font-weight:350;
+    font-size: 14px;
+    font-weight:400;
     font-style: italic;
 
 }
 
 .text-data .address {
-    font-size: 12px;
-    font-weight: 350;
+    font-size: 14px;
+    font-weight: 300;
     font-style: italic;
 }
 
 .text-data .address1 {
-    font-size: 11px;
-    font-weight: 350;
+    font-size: 14px;
+    font-weight: 300;
     font-style: italic;
 }
 
@@ -110,8 +113,8 @@ body {
     align-items: center;
     justify-content: center;
     color: #fff;
-    height: 40px;
-    width: 40px;
+    height: 36px;
+    width: 36px;
     font-size: 27px;
     border-radius: 50%;
     margin: 0 8px;
