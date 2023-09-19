@@ -173,7 +173,16 @@ body {
     border-right: none;
 }
 
-
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+  
   
   .card {
     --blur: 16px;
