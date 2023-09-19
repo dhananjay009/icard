@@ -29,7 +29,6 @@ body {
     padding: 30px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     position: relative;
-    line-height-step: 50px;
 }
 
 .id-card::before {
@@ -175,12 +174,8 @@ body {
 }
 
 
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    display: grid;
+body {
+    display: block-size;
     place-items: center;
     min-height: 100vh;
   }
@@ -215,12 +210,10 @@ body {
     display: grid;
     grid-template-row: auto auto;
     gap: 0.5ch;
-    background: hsla(0, 0%, 100%, 0.952);
+    background: hsl(0, 0%, 100%);
     backdrop-filter: blur(var(--blur));
     height: 30%;
     align-content: center;
-    font-size: 10px;
-    font-family: 'Times New Roman', Times, serif;
   }
   
   .card__action {
